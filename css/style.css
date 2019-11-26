@@ -29,7 +29,7 @@ button{
   background: linear-gradient(to top,#36F000 50%, #1C0D40 40%);
 }
 /*Создание солнца/луны*/
-.sun{
+#sun{
   cursor: pointer;
   position: absolute;
   width: 100px;
@@ -39,7 +39,7 @@ button{
   top: 5%;
   right: 50%;
 }
-.sun:hover{
+#sun:hover{
   position: absolute;
   width: 100px;
   height: 100px;
@@ -52,15 +52,15 @@ img{
   position: absolute;
   cursor: pointer;
 }
-.imageCorow1{
+.imageCow1{
   bottom: 50px;
   right: 50px;
 }
-.imageCorow2{
+.imageCow2{
   bottom: 70px;
   left: 50px;
 }
-.imageCorow3{
+.imageCow3{
   bottom: 100px;
   left: 50%;
 }
