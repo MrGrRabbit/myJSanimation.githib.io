@@ -15,7 +15,7 @@ function myMove() {
 }
 */
 //Пример анимации :
-cowV1.onclick = function() {
+/*cowV1.onclick = function() {
   let start = Date.now();
 
   let timer = setInterval(function() {
@@ -26,4 +26,20 @@ cowV1.onclick = function() {
     if (timePassed > 3000) clearInterval(timer);
 
   }, 20);
+}
+*/
+sun.onclick = function() {
+  let start = Date.now();
+
+  let timer = setInterval(function() {
+    let timePassed = Date.now() - start;
+
+    sun.style.top = timePassed / 5 + 'px';
+
+    if (timePassed > 1000) clearInterval(timer);
+
+  }, 20);
+
+
+
 }
